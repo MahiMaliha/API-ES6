@@ -10,6 +10,7 @@ fetch("https://fakestoreapi.com/products")
     displayProduct(data);
     arr.push(data); //arr.push has been used so that we dont have to write the fetch code  more than once.This is an optimized way
   });
+
 //To show data
 const displayProduct = (products) => {
   for (const product of products) {
